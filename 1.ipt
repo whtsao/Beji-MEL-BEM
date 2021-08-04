@@ -1,0 +1,39 @@
+*INPUT THE COORDINATE
+* X  Y  Z
+
+0       0
+50.0     0
+50.0     8.0 
+0       8.0
+*====================
+*INPUT THE element NUMBER of zone 1
+
+40
+10
+40
+10
+*====================
+*INPUT THE BUNDARY TYPE
+*1 IS PHI ,0 IS THE PARTIAL PHI
+
+1
+0
+0
+0
+*=======================
+*INPUT THE GAUSSIAN INTEGRATIAL POINTS NO.
+
+8 
+*=======================
+*INPUT THE GRAV,MU,TANK WEIDTH,THO
+
+9.81 0 1.0 998.2
+*=======================
+*AMP(m),OMEGA(rad/s) of wavemaker
+
+0.2 2.094 0
+*=======================
+*ENDTIME,DELTTIME,SOR,ICON,NITER,ETOL
+
+30.0 0.001 0.5 5 500 1.0E-5
+*FILE END
