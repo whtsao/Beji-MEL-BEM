@@ -1,4 +1,4 @@
-# 2D potential-flow-wave-problem
+# potential-flow-wave-problem
 
 Developed by Wen-Huai Tsao at LSU-CE
 Aug. 2021
