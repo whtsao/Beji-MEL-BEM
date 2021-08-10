@@ -1,9 +1,9 @@
 # potential-flow-wave-problem
 
-Developed by Wen-Huai Tsao at LSU
+Developed by Wen-Huai Tsao at LSU-CE
 Aug. 2021
 
-Solve wave problem by Eulerian - Lagrangian method
+Solve 2D and 3D wave problem by Eulerian - Lagrangian method
 
 Eulerian step solves mixed type boundary value problem by boundary element method
 - Linear element used for boundary integral
@@ -20,7 +20,6 @@ Output variables:
 - Velocity of boundary node and domain node
 
 Next version to be continued:
-- 3D case
 - Regularized boundary integral method
 - Output variables force and energy
 - Floating body coupling
