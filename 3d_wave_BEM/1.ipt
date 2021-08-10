@@ -1,0 +1,43 @@
+*INPUT THE COORDINATE
+* X  Y  Z
+
+0    0    0
+50  0    0
+50  5    0
+0    5    0
+0    0    8
+50  0    8
+50  5    8
+0    5    8
+*====================
+*INPUT THE MASH NUMBER
+
+40 4
+40 8
+4   8 
+40 8
+4   8
+40 4
+*====================
+*INPUT THE BUNDARY TYPE
+*1 IS PHI ,0 IS THE PARTIAL PHI
+
+1
+0
+0
+0
+0
+0
+*=======================
+*INPUT THE GRAV,MU,THO
+
+9.81 0 998.2
+*=======================
+*AMP(rad),OMEGA(rad/s),PSI(rad) of wavemaker
+
+0.2 2.094 0
+*=======================
+*ENDTIME,DELTTIME,SOR,ICON,NITER,ETOL
+
+30.0 0.001 0.5 80 500 1.0E-5
+*FILE END
