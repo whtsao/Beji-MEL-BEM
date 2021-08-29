@@ -1,0 +1,57 @@
+*INPUT THE COORDINATE
+* X  Y  Z
+
+0         0
+6         0
+12       0.3 
+14       0.3
+17       0
+18.95  0
+23.95  0.2
+28.95  0.2
+28.95  0.4
+0         0.4
+*====================
+*INPUT THE element NUMBER
+
+200
+15
+34
+34
+13
+20
+13
+41
+41
+30
+*====================
+*INPUT THE BUNDARY TYPE
+*1 IS PHI ,0 IS THE PARTIAL PHI
+
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+*=======================
+*INPUT THE GAUSSIAN INTEGRATIAL POINTS NO.
+
+8 
+*=======================
+*INPUT THE GRAVITY,MU,CHANNEL WEIDTH,THO
+
+9.81   0   1.0   998.2
+*=======================
+*AMPLITUDE(m) or STROKE(m),OMEGA(rad/s) or DURATION(s), PHASE LAG(rad) of wavemaker
+
+0.017511   3.1109   0
+*=======================
+*ENDTIME,DELTTIME,SOR,ICON,NITER,ETOL
+
+0.1   0.001   0.5   10   500   1.0E-6
+*FILE END

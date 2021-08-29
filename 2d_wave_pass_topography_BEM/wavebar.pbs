@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -A hpc_proteus02m
+#PBS -l walltime=70:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -q single
+#PBS -N wavebar
+#PBS -o out.o
+#PBS -j oe
+
+mkdir $WORK/wavebar.$PBS_JOBID
+cd $WORK/wavebar.$PBS_JOBID
+cp $PBS_O_WORKDIR/*.pbs .
+cp $PBS_O_WORKDIR/*.ipt .
+cp $PBS_O_WORKDIR/*.f90 .
+cp $PBS_O_WORKDIR/*.out .
+ 
+./a.out
+exit
+

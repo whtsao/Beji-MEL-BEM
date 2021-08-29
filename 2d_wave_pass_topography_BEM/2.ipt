@@ -1,0 +1,16 @@
+*INPUT NUMBER OF PLANES
+
+10
+*====================
+*INPUT WAVE GENERATION: 1=PERIODIC; 2=SOLITARY
+
+1
+*====================
+*INPUT NUMBER OF WAVE GAUGE
+
+8
+*====================
+*INPUT WAVE GAUGE X LOCATION
+
+3  5.7  10.5  12.5  13.5  14.5  15.7  17.3
+*FILE END
