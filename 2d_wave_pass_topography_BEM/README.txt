@@ -63,9 +63,9 @@ Usage:
 
 ************************************************************************************************
 Reference:
-[1] S. T. Griili, J. Skourup and I. A. Svendsen. An efficient boundary element method for nonlinear water waves. Engineering Analysis with Boundary Elements, 1989, Vol. 6, No. 2, 97-107.
+[1] S. T. Griili, J. Skourup and I. A. Svendsen. An efficient boundary element method for nonlinear water waves. Engineering Analysis with Boundary Elements, 1989, 6(2), 97-107.
 [2] S. Beji, J.A. Battjes. Numerical simulation of nonlinear wave propagation over a bar. Coastal Engineering, 1994, 23, 1-16.
-[3] F. Ursell, R. G. Dean, Y. S. Y u. Forced small-amplitude water waves: a comparison of theory and experiment. Journal of Fluid Mechanics, 1960, 7(1) , 33 - 52.
+[3] F. Ursell, R. G. Dean, Y. S. Y u. Forced small-amplitude water waves: a comparison of theory and experiment. Journal of Fluid Mechanics, 1960, 7(1) , 33-52.
 
 ************************************************************************************************
 NO WARRANTY:
