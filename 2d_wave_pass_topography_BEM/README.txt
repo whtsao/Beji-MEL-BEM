@@ -56,7 +56,9 @@ Usage:
     [x coordinate; y coordinate; u, v, p] at ith step
     [x coordinate; y coordinate; u, v, p] at i+1th step
     ...
-7. err.dat = converged error of velocity potentials of the nodes on the radiation outlet
+7. wg.dat = wave elevations of the wave gauges set along x-direction.
+   (time, elevation 1, elevation 2,... elevation n)
+8. err.dat = converged error of velocity potentials of the nodes on the radiation outlet
     (time, iteration count, ABS error, RMS error)
 
 ************************************************************************************************
