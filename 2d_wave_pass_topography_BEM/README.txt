@@ -4,7 +4,6 @@ Developed by Wen-Huai Tsao at LSU-CE Aug. 2021
 
 ************************************************************************************************
 Description:
-
 1. Domain dimension = [2]. Time interval = 0.001s.
 2. Four kinds of boundaries: Free surface (y+), Left side wave maker (x-), Right side absorption (x+), Bottom (y-).
 3. The wave maker is a vertical impermeable baffle. Amplitude of the piston wavemaker = [3]
@@ -13,17 +12,14 @@ Description:
 6. The bottom can have any kind of topograghy by giving nodes between each section
 ************************************************************************************************
 Method [1]:
-
 A. Eulerian step solves mixed type boundary value problem by boundary element method
   1. Linear 2-node element is used for boundary integral, 8 Gaussian quadrature points are used in one element.
   2. Kinematic and dynamic boundary conditions for free surface
   3. Impermeable boundary condition for wave maker and bottom
   4. Radiation condition for absorption side (No reflection). Wave speed C is calculated via dispersion relation before program start
   5. An iterative solver (due to radiation BC) for the velocity potentials on the absorption side is embedded
-
 B. Lagrangian step tracks the free surface particle by 2nd-order Taylor series expansion
   1. Update velocity potential and location of a free surface particle
-
 C. Output variables:
   1. Pressure on boundary node and domain node
   2. Velocity of boundary node and domain node
