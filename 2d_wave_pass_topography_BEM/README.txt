@@ -10,6 +10,7 @@ Description:
 4. Generate periodic waves by x = A*sin(omega*t), A=amplitude(m), omega-forcing frequency(rad/s)
 5. Generate solitary wave by half-sine displacement-time history with one stroke(m) in one duration(s).
 6. The bottom can have any kind of topograghy by giving nodes between each section
+
 ************************************************************************************************
 Method [1]:
 A. Eulerian step solves mixed type boundary value problem by boundary element method
