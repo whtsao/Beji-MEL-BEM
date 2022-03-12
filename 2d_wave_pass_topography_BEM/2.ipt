@@ -6,6 +6,10 @@
 
 1
 *====================
+*INPUT OUTLET BC TYPE: 0=WALL; 1=RADIATION
+
+1
+*====================
 *INPUT NUMBER OF WAVE GAUGE
 
 8
